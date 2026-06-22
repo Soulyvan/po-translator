@@ -100,7 +100,7 @@ msgstr "Su cuenta no activada será eliminada en 3 días. ¡Actívela si desea c
 ## 1. Cloner le projet
 
 ```bash
-git clone https://github.com/votre-utilisateur/po-translator.git
+git clone https://github.com/Soulyvan/po-translator.git
 cd po-translator
 ```
 
