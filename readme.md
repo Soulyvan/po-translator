@@ -6,6 +6,8 @@ Le programme traduit les `msgid` en français vers :
 
 * 🇪🇸 Espagnol (`es`)
 * 🇵🇹 Portugais (`pt`)
+* * 🇬🇧 Anglais (`en`)
+* …et toute autre langue prise en charge par l'API DeepL.
 
 et remplit automatiquement les `msgstr` vides sans modifier les `msgid`.
 
@@ -249,6 +251,30 @@ py po_translator.py --lang es
 
 ```bash
 py po_translator.py --lang pt
+```
+
+---
+
+## Traduire en anglais
+
+```bash
+py po_translator.py --lang en
+```
+
+---
+
+---
+
+## Traduire dans une autre langue
+
+Le paramètre `--lang` accepte n'importe quel code de langue supporté par l'API DeepL.
+
+Exemples :
+
+```bash
+py po_translator.py --lang de   # Allemand
+py po_translator.py --lang it   # Italien
+py po_translator.py --lang nl   # Néerlandais
 ```
 
 ---
