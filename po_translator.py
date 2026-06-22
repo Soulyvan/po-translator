@@ -153,8 +153,10 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     lang_map = {
-        "es": "ES",
-        "pt": "PT-PT"
+        "es": "ES",        # Espagnol
+        "pt": "PT-PT",     # Portugais (Portugal)
+        "en": "EN-US",     # Anglais (États-Unis)
+        # les autres si vous voulez
     }
 
     process_po_inplace(args.file, lang_map[args.lang])
