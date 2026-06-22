@@ -6,7 +6,7 @@ Le programme traduit les `msgid` en français vers :
 
 * 🇪🇸 Espagnol (`es`)
 * 🇵🇹 Portugais (`pt`)
-* * 🇬🇧 Anglais (`en`)
+* 🇬🇧 Anglais (`en`)
 * …et toute autre langue prise en charge par l'API DeepL.
 
 et remplit automatiquement les `msgstr` vides sans modifier les `msgid`.
